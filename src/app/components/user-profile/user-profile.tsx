@@ -30,7 +30,7 @@ const UserProfile = ({ user, friends }: UserProfileProps) : React.JSX.Element =>
         <p className={styles.email}>Email: {user.email}</p>
         
         <div className={styles.friendsList}>
-          <h3 className='text-lg font-semibold text-gray-800'>{friends.length > 0 ? `Friends:` : 'No friends available'}</h3>
+          <h3 className={styles.friends}>{friends.length > 0 ? `Friends:` : 'No friends available'}</h3>
           <ul>
             {friends.map((friend: User) => (
               <li key={friend._id} className={styles.friendItem}>

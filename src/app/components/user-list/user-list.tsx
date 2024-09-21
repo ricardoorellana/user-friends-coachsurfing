@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const UserList = ({ users } : UserListProps) : React.JSX.Element => {
   if (!users.length) {
-    return <p className="text-gray-500">No users found.</p>;
+    return <p className={styles.title}>No users found.</p>;
   }
 
   return (
