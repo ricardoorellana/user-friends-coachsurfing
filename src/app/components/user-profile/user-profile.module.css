@@ -1,0 +1,43 @@
+.container {
+  margin: 2rem auto;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.image {
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.age,
+.email {
+  color: #718096;
+  margin-top: 0.5rem;
+}
+
+.friendsList {
+  margin-top: 1rem;
+}
+
+.friendItem {
+  list-style-type: none;
+  color: #4a5568;
+}
+
+.link {
+  color: #2563eb;
+  text-decoration: none;
+}
